@@ -6,6 +6,9 @@
 .topLogo {
   padding: 0px 20px;
 }
+.menuLogo {
+  padding: 10px;
+}
 .container {
   display: inline-block;
   margin: 0px 20px;
@@ -57,8 +60,18 @@
   font-size: 1.6rem;
   font-family: "Lato", sans-serif;
 }
+@media (min-width: 1000px) {
+  .topSecContent {
+    display: inline-block;
+  }
+}
 .bottomContentImg {
   border-radius: 20px;
+}
+@media (min-width: 1000px) {
+  .bottomContentImg {
+    width: 50%;
+  }
 }
 .dropbtn {
   font-family: "Lato", sans-serif;
