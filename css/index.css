@@ -1,13 +1,8 @@
 .header-nav {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-}
-.topLogo {
-  padding: 0px 20px;
-}
-.menuLogo {
-  padding: 10px;
 }
 .footerBar {
   width: 100%;
@@ -23,24 +18,6 @@
   width: 100%;
   height: auto;
   border-radius: 20px;
-}
-.menu-button {
-  padding: 10px;
-  display: flex;
-  justify-content: flex-end;
-  cursor: pointer;
-}
-.menu {
-  display: none;
-  border: 1px solid green;
-}
-.menu ul li {
-  list-style-type: none;
-  display: flex;
-  font-size: 100%;
-}
-.menu--open {
-  display: flex;
 }
 .topImg h1 {
   position: absolute;
@@ -67,6 +44,10 @@
     display: inline-block;
   }
 }
+.topContentSec .content {
+  border-top: 1px dotted #059240;
+  margin: 10% 0%;
+}
 .bottomContentImg {
   border-radius: 20px;
 }
@@ -85,6 +66,7 @@
   border-radius: 30px;
   box-shadow: 0px 1px 1px grey;
   outline: none;
+  margin-bottom: 20px;
 }
 .costumer-comments {
   font-size: 2rem;
