@@ -107,6 +107,11 @@
   width: 50%;
   height: auto;
 }
+@media (min-width: 1000px) {
+  .Slides .profilePic {
+    width: 30%;
+  }
+}
 .prev,
 .next {
   cursor: pointer;
