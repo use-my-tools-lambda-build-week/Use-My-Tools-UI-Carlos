@@ -42,7 +42,7 @@
   font-family: "Lato", sans-serif;
 }
 
-.topSecContent {
+.topContentSec {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -75,20 +75,30 @@
 }
 
 .costumer-comments {
-  border-radius: 20px;
-  color: #ffb843;
-  border: 3px solid #65054e;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 30px;
+  border: 10px solid #65054e;
   position: relative;
 }
 
-/* Slides */
-.Slides {
-  display: none;
-  padding: 10%;
-  text-align: center;
+.costumer-comments h2 {
+  color: #ffb843;
 }
 
-/* Next & previous buttons */
+.Slides {
+  display: none;
+  padding: 0% 10%;
+  text-align: center;
+  font-family: "lato", sans-serif;
+
+  .profilePic {
+    border-radius: 50%;
+    width: 50%;
+    height: auto;
+  }
+}
+
 .prev,
 .next {
   cursor: pointer;
@@ -102,44 +112,11 @@
   display: flex;
   justify-content: space-between;
 }
-
-/* Position the "next button" to the right */
 .next {
   position: absolute;
   right: 0;
 }
 
-/* The dot/bullet/indicator container */
-.dot-container {
-  width: 100%;
-  text-align: center;
-  padding: 20px;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-/* Add an italic font style to all quotes */
-.costumer-comments p {
-  color: #059240;
-  font-family: "lato", sans-serif;
-}
-
-/* Add a blue color to the author */
-.profilePic {
-  border-radius: 50%;
-  width: 20%;
-  height: auto;
-}
-
-// About page section below
 .devTeamImg {
   position: relative;
   text-align: center;
