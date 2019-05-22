@@ -8,14 +8,19 @@
       rel="stylesheet"
       type="text/css"
     />
+    <script async src="JS/home-page.js"></script>
     <title>TOOL SHED</title>
   </head>
   <body>
     <header class="header-nav">
       <img class="topLogo" src="imgs/logo.jpg" />
-      <img class="menuLogo" src="imgs/Menu-.jpg" />
+      <img href="#" class="menu-button" src="imgs/Menu-.jpg" />
     </header>
-
+    <div class="menu">
+      <ul>
+        <li><a href="about.html">about us </a></li>
+      </ul>
+    </div>
     <div class="home-page">
       <div class="topImg">
         <img class="backImg" src="imgs/greyson-joralemon-482879-unsplash.jpg" />
@@ -38,19 +43,60 @@
             class="bottomContentImg"
             src="imgs/david-siglin-87978-unsplash.jpg"
           />
-          <p>
+
+        <h2>Why choose Toolshed?</h2>
+        <p>
+          ToolShed is a user friendly platform and with are safe
+          transaction system , you can rent or rent out your tools worry free.
+        </p>
+        <div class= "costumer-comments">
+          <h2> Dont believe us? <br> See what are users say.</h2>
+          <div class="Slides">
+              <p>Totally worth it!!</p>
+              <p class="costumerName">- Dany soup</p>
+              <img  class="profilePic"src= 'imgs/chris-leggat-78586-unsplash.jpg'>
+            </div>
+          
+            <div class="Slides">
+              <p>I've aleady made 100 bucks this week.</p>
+              <p class="costumerName">- Chief Bob</p>
+              <img  class="profilePic"src= 'imgs/jordan-whitfield-107093-unsplash.jpg'>
+            </div>
+          
+            <div class="Slides">
+              <p>Needed a saw to finish my project. ToolShed found one available to rent a couple blocks down.</p>
+              <p class="costumerName">- Allison Grechin</p>
+              <img  class="profilePic"src= 'imgs/juan-ramos-97385-unsplash.jpg'>
+            </div>
+
+            <div class="Slides">
+              <p>I wish I knew about Toolshed sooner</p>
+              <p class="costumerName">- Chris P. Bacon</p>
+              <img  class="profilePic"src= 'imgs/noah-basle-25984-unsplash.jpg'>
+            </div>
+          
+            <!-- Next/prev buttons -->
+            <a class="prev" onclick="plusSlides(0)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+        </div>
+      </div><!--topSecContent div-->
+    </div>
+    <!-- wholeContent div -->
+
+    <footer class="footerBar">
+      <img class="footerLogo" src="imgs/logo.jpg" />
+    </footer>
+  </body>
+</html>
+
+<!--
+   <p>
             Create a Profile and become a<br />
             Poster, Renter, or both today!
           </p>
-          <div class="wrap">
-            <button class="dropbtn">Begin Here</button>
-          </div>
-          <!-- wrap div -->
-        </div>
-        <!-- topSecContent div -->
-      </div>
-      <!-- wholeContent div -->
-    </div>
-    <!-- home-page div -->
-  </body>
-</html>
+<div class="wrap">
+    <button class="dropbtn">Begin Here</button>
+  </div>
+   wrap div -->

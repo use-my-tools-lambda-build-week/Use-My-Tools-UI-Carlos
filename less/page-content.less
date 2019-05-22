@@ -1,47 +1,35 @@
-.header-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.topLogo {
-  padding: 0px 20px;
-}
-.menuLogo {
-  padding: 10px;
-}
-.footerBar {
-  width: 100%;
-  height: 70px;
-  margin: 30px 0px 0px;
-  display: flex;
-  justify-content: center;
-}
 .topImg {
   position: relative;
 }
+
 .backImg {
   width: 100%;
   height: auto;
   border-radius: 20px;
 }
+
 .menu-button {
   padding: 10px;
   display: flex;
   justify-content: flex-end;
   cursor: pointer;
 }
+
 .menu {
   display: none;
   border: 1px solid green;
 }
+
 .menu ul li {
   list-style-type: none;
   display: flex;
   font-size: 100%;
 }
+
 .menu--open {
   display: flex;
 }
+
 .topImg h1 {
   position: absolute;
   width: 100%;
@@ -53,6 +41,7 @@
   color: white;
   font-family: "Lato", sans-serif;
 }
+
 .topSecContent {
   display: flex;
   flex-direction: column;
@@ -61,20 +50,18 @@
   text-align: center;
   font-size: 1.6rem;
   font-family: "Lato", sans-serif;
-}
-@media (min-width: 1000px) {
-  .topSecContent {
+  @media (min-width: 1000px) {
     display: inline-block;
   }
 }
+
 .bottomContentImg {
-  border-radius: 20px;
-}
-@media (min-width: 1000px) {
-  .bottomContentImg {
+  @media (min-width: 1000px) {
     width: 50%;
   }
+  border-radius: 20px;
 }
+
 .dropbtn {
   font-family: "Lato", sans-serif;
   font-size: 26px;
@@ -86,18 +73,21 @@
   box-shadow: 0px 1px 1px grey;
   outline: none;
 }
+
 .costumer-comments {
   border-radius: 20px;
   color: #ffb843;
   border: 3px solid #65054e;
   position: relative;
 }
+
 /* Slides */
 .Slides {
   display: none;
   padding: 10%;
   text-align: center;
 }
+
 /* Next & previous buttons */
 .prev,
 .next {
@@ -112,17 +102,20 @@
   display: flex;
   justify-content: space-between;
 }
+
 /* Position the "next button" to the right */
 .next {
   position: absolute;
   right: 0;
 }
+
 /* The dot/bullet/indicator container */
 .dot-container {
   width: 100%;
   text-align: center;
   padding: 20px;
 }
+
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
@@ -132,25 +125,31 @@
   border-radius: 50%;
   display: inline-block;
 }
+
 /* Add an italic font style to all quotes */
 .costumer-comments p {
   color: #059240;
   font-family: "lato", sans-serif;
 }
+
 /* Add a blue color to the author */
 .profilePic {
   border-radius: 50%;
   width: 20%;
   height: auto;
 }
+
+// About page section below
 .devTeamImg {
   position: relative;
   text-align: center;
   color: white;
 }
+
 .aboutBackroundImg {
   border-radius: 20px;
 }
+
 .devTeam {
   position: absolute;
   top: 50%;
@@ -158,6 +157,7 @@
   transform: translate(-50%, -50%);
   font-size: 10vw;
 }
+
 .devInfoSec {
   display: flex;
   flex-wrap: wrap;
@@ -171,7 +171,4 @@
   border-radius: 50%;
   width: 20%;
   height: auto;
-}
-* {
-  max-width: 100%;
 }
