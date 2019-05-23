@@ -20,6 +20,13 @@
   font-family: "Lato", sans-serif;
 }
 
+.topPara {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 .topContentSec {
   display: flex;
   flex-direction: column;
@@ -29,17 +36,21 @@
   font-size: 1.6rem;
   font-family: "Lato", sans-serif;
   @media (min-width: 1000px) {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
   }
   .content {
     border-top: 1px dotted #059240;
-    margin: 10% 0%;
+    padding: 10% 0%;
+    @media (min-width: 1000px) {
+      width: 33%;
+    }
   }
 }
 
 .bottomContentImg {
   @media (min-width: 1000px) {
-    width: 50%;
+    width: 80%;
   }
   border-radius: 20px;
 }
