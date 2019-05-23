@@ -1,23 +1,21 @@
 .topImg {
-  position: relative;
-}
-
-.backImg {
-  width: 100%;
-  height: auto;
-  border-radius: 20px;
-}
-
-.topImg h1 {
-  position: absolute;
-  width: 100%;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 6vw;
-  text-align: center;
-  color: white;
-  font-family: "Lato", sans-serif;
+  .backImg {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    position: relative;
+  }
+  .textImg {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6vw;
+    text-align: center;
+    color: @pearl-white;
+    font-family: "Lato", sans-serif;
+  }
 }
 
 .topPara {
@@ -26,6 +24,10 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  font-family: "Lato", sans-serif;
+  .btn {
+    .btn();
+  }
 }
 .topContentSec {
   display: flex;
@@ -35,52 +37,35 @@
   text-align: center;
   font-size: 1.6rem;
   font-family: "Lato", sans-serif;
-  @media (min-width: 1000px) {
+  @media @desktop {
     display: flex;
     flex-direction: row;
   }
   .content {
-    border-top: 1px dotted #059240;
+    border-top: 2px dotted @green;
     padding: 10% 0%;
-    @media (min-width: 1000px) {
+    @media @desktop {
       width: 33%;
     }
   }
-}
 
-.bottomContentImg {
-  @media (min-width: 1000px) {
-    width: 80%;
+  .bottomContentImg {
+    @media @desktop {
+      width: 80%;
+    }
+    border-radius: 20px;
   }
-  border-radius: 20px;
-}
-
-.dropbtn {
-  font-family: "Lato", sans-serif;
-  font-size: 26px;
-  width: 257px;
-  height: 38px;
-  background: #ffb843;
-  color: white;
-  border-radius: 30px;
-  box-shadow: 0px 1px 1px grey;
-  outline: none;
-  margin-bottom: 20px;
 }
 
 .costumer-comments {
   font-size: 2rem;
   text-align: center;
   border-radius: 30px;
-  border: 10px solid #65054e;
+  border: 10px solid @purple;
   position: relative;
 }
 
-.costumer-comments h2 {
-  color: #ffb843;
-}
-
-.Slides {
+.slides {
   display: none;
   padding: 0% 10%;
   text-align: center;
@@ -90,7 +75,7 @@
     border-radius: 50%;
     width: 50%;
     height: auto;
-    @media (min-width: 1000px) {
+    @media @desktop {
       width: 30%;
     }
   }
@@ -121,7 +106,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 1300px;
-  color: #059240;
+  border-radius: 20px;
+  border: 10px solid @green;
 
   .backImgText {
     font-family: "Lato", sans-serif;
@@ -137,7 +123,7 @@
   justify-content: center;
 
   .devTitle {
-    color: #f5fdf8;
+    color: @pearl-white;
   }
 
   .devInfo {
@@ -145,19 +131,19 @@
     font-size: 1.6rem;
     text-align: center;
     padding: 2% 0%;
-    border-bottom: 3px dotted #65054e;
+    border-bottom: 3px dotted @purple;
 
     .devName {
-      background: #ffbe43;
+      background: @yellow;
       margin: 0% 8%;
       border-radius: 30px;
-      @media (min-width: 1000px) {
+      @media @desktop {
         margin: 0% 30%;
       }
     }
   }
   .profilePhoto {
-    border: 2px solid #65054e;
+    border: 2px solid @purple;
     border-radius: 50%;
   }
 }

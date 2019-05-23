@@ -1,14 +1,14 @@
 // customer comments script
 var slideIndex = 1;
-showSlides(slideIndex);
+slide(slideIndex);
 
 function plusSlides(n) {
-  showSlides((slideIndex += n));
+  slide((slideIndex += n));
 }
 
-function showSlides(n) {
+function slide(n) {
   var i;
-  var slides = document.getElementsByClassName("Slides");
+  var slides = document.getElementsByClassName("slides");
   if (n > slides.length) {
     slideIndex = 1;
   }
