@@ -1,9 +1,9 @@
 .topImg {
+  position: relative;
   .backImg {
     width: 100%;
     height: auto;
     border-radius: 20px;
-    position: relative;
   }
   .textImg {
     position: absolute;
@@ -17,16 +17,18 @@
     font-family: "Lato", sans-serif;
   }
 }
-
-.topPara {
-  font-size: 1.6rem;
+.topParaSec {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  font-family: "Lato", sans-serif;
-  .btn {
-    .btn();
+  justify-content: center;
+  .topPara {
+    font-size: 1.6rem;
+    width: 90%;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    .btn {
+      .button();
+    }
   }
 }
 .topContentSec {
@@ -43,7 +45,7 @@
   }
   .content {
     border-top: 2px dotted @green;
-    padding: 10% 0%;
+    padding: 10% 1%;
     @media @desktop {
       width: 33%;
     }
@@ -63,6 +65,7 @@
   border-radius: 30px;
   border: 10px solid @purple;
   position: relative;
+  font-family: "lato", sans-serif;
 }
 
 .slides {
@@ -131,7 +134,7 @@
     font-size: 1.6rem;
     text-align: center;
     padding: 2% 0%;
-    border-bottom: 3px dotted @purple;
+    border-bottom: 2px dotted @purple;
 
     .devName {
       background: @yellow;

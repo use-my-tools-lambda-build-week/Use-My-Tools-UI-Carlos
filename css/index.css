@@ -1,3 +1,14 @@
+.button {
+  font-size: 26px;
+  width: 257px;
+  height: 38px;
+  background: #ffb843;
+  color: #f5fdf8;
+  border-radius: 30px;
+  box-shadow: 0px 1px 1px 1px grey;
+  outline: none;
+  margin-bottom: 20px;
+}
 .header-nav {
   width: 100%;
   display: flex;
@@ -12,7 +23,7 @@
   flex-direction: column;
   align-items: center;
 }
-.btn {
+.footerBar .btn {
   font-size: 26px;
   width: 257px;
   height: 38px;
@@ -23,11 +34,13 @@
   outline: none;
   margin-bottom: 20px;
 }
+.topImg {
+  position: relative;
+}
 .topImg .backImg {
   width: 100%;
   height: auto;
   border-radius: 20px;
-  position: relative;
 }
 .topImg .textImg {
   position: absolute;
@@ -40,13 +53,18 @@
   color: #f5fdf8;
   font-family: "Lato", sans-serif;
 }
-.topPara {
-  font-size: 1.6rem;
+.topParaSec {
   display: flex;
+  justify-content: center;
+}
+.topParaSec .topPara {
+  font-size: 1.6rem;
+  width: 90%;
   flex-direction: column;
-  align-items: center;
   text-align: center;
   font-family: "Lato", sans-serif;
+}
+.topParaSec .topPara .btn {
   font-size: 26px;
   width: 257px;
   height: 38px;
@@ -74,7 +92,7 @@
 }
 .topContentSec .content {
   border-top: 2px dotted #059240;
-  padding: 10% 0%;
+  padding: 10% 1%;
 }
 @media (min-width:1000px) {
   .topContentSec .content {
@@ -95,6 +113,7 @@
   border-radius: 30px;
   border: 10px solid #65054e;
   position: relative;
+  font-family: "lato", sans-serif;
 }
 .slides {
   display: none;
@@ -156,7 +175,7 @@
   font-size: 1.6rem;
   text-align: center;
   padding: 2% 0%;
-  border-bottom: 3px dotted #65054e;
+  border-bottom: 2px dotted #65054e;
 }
 .devInfoSec .devInfo .devName {
   background: #ffb843;
