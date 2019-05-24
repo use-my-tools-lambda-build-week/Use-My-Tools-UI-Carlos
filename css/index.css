@@ -113,6 +113,7 @@
   border-radius: 30px;
   border: 10px solid #65054e;
   position: relative;
+  font-family: "lato", sans-serif;
 }
 .slides {
   display: none;
@@ -174,7 +175,7 @@
   font-size: 1.6rem;
   text-align: center;
   padding: 2% 0%;
-  border-bottom: 3px dotted #65054e;
+  border-bottom: 2px dotted #65054e;
 }
 .devInfoSec .devInfo .devName {
   background: #ffb843;
